@@ -1,2 +1,2 @@
-@reboot /home/octv/mjpg-streamer-odroid/mjpg-streamer/mjpg_streamer -i "/home/octv/mjpg-streamer-odroid/mjpg-streamer/plugins/input_uvc/input_uvc.so -d /dev/video0 -f 30 -r 1920x1080" -o "/home/octv/mjpg-streamer-odroid/mjpg-streamer/plugins/output_http/output_http.so -p 8081 -w /home/octv/mjpg-streamer-odroid/mjpg-streamer/www" 2>&1 > /home/octv/mjpg-streamer-odroid/run0.log &
+@reboot sleep 15 && /home/octv/mjpg-streamer-odroid/mjpg-streamer/mjpg_streamer -i "/home/octv/mjpg-streamer-odroid/mjpg-streamer/plugins/input_uvc/input_uvc.so -d /dev/video0 -f 30 -r 1920x1080" -o "/home/octv/mjpg-streamer-odroid/mjpg-streamer/plugins/output_http/output_http.so -p 8081 -w /home/octv/mjpg-streamer-odroid/mjpg-streamer/www" 2>&1 > /home/octv/mjpg-streamer-odroid/run0.log &
 
