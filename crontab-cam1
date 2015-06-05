@@ -1,0 +1,1 @@
+@reboot sleep 15 && /home/octv/mjg-streamer-odroid/startup-cam1.sh
