@@ -1,1 +1,0 @@
-@reboot sleep 15 && /home/octv/mjpg-streamer-odroid/startup-cam2.sh
